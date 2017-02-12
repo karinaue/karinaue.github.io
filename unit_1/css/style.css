@@ -1,8 +1,8 @@
 body {
-    background-color: blue;
+    background-color: lightgreen;
     font-family: Arial, sans-serif;
 }
 
-h1, p {
-	color: pink;   
+h1, h3, p, a {
+	color: green;   
 }
