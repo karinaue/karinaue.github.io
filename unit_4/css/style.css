@@ -1,0 +1,116 @@
+
+@import url('https://fonts.googleapis.com/css?family=Fugaz+One');
+@import url('https://fonts.googleapis.com/css?family=Harmattan');
+
+
+body {
+    background-color: #f4f4f4;
+	font-family: 'Harmattan', sans-serif;
+    font-size: 17px;
+    color: #222222;
+}
+
+nav{
+	text-align: center;
+	position: relative;
+}
+
+/*header {
+    padding: 20px;
+    background: url("images/Artboard3x.png");
+    background-size: cover;
+    width: 1000px;
+}*/
+
+main {
+	padding: 2em;
+	clear: both;
+}
+
+
+h1{
+	font-family: 'Fugaz One', sans-serif;
+	font-size: 2,2em;
+	text-align: center;
+	line-height: 1em;
+}
+
+h1, h2, h3, a {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 1em;
+	text-align: center;
+	line-height: 0.5em;
+}
+p {
+	font-size: 1em;
+	/*margin: 10px 0px;*/
+	font-weight: normal;
+	line-height: 0.5em;
+}
+
+a {
+	font-size: 1em;
+	color: #222222;
+	text-decoration:none;
+	margin: 10px 10px;
+}
+
+header a { 
+	color: #222222; 
+	text-decoration: none;
+}
+
+hr {
+	border: none;
+	height: 3px;
+	background:#222222;
+	width: 3em;
+	margin: 1em auto;
+}
+
+p {
+	font-size: 1em;
+	line-height: 1.2;
+}
+
+footer {
+	background-color: #ffffff;
+	font-size: 1em;
+	padding: 20px;
+}
+
+/*.column{
+width: 33.3333%;
+float: left;
+}*/
+
+.navlinks{
+	letter-spacing: 2px;
+	padding:20px;
+	margin: auto;
+    border:none;
+}
+
+.item {
+	padding:0.7em 0.7em;
+	box-shadow: 1px 1px 3px rgba(0,0,0,.25);
+	margin-bottom:1em;
+	background: #fff;
+}
+
+.item img {
+	width:100%;
+}
+
+.masonry {
+    column-count: 3;
+    column-gap: 1em;
+}
+
+
+
+
