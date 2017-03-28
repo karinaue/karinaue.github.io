@@ -17,7 +17,7 @@ body {
 }
 
 header {
-	padding: 40px 0;
+	padding: 2em 0;
 }
 
 main {
@@ -25,29 +25,11 @@ main {
 	clear: both;
 }
 
-/*header a { 
-	color: #222222; 
-	text-decoration: none;
-}
-*/
-
-/*article {
-	padding: 20px 0;
-	width: 720px;
-	float: left;
-}
-
-aside {
-	padding-top: 20px;
-	float: right;
-	width: 320px;
-}*/
-
 footer {
 	clear: both;
 	background-color: #ffffff;
 	font-size: 1em;
-	padding: 20px;
+	padding: 1.5em;
 }
 
 h1{
@@ -66,7 +48,7 @@ h2 {
 
 hr {
 	border: none;
-	height: 3px;
+	height: .2em;
 	background:#222222;
 	width: 10em;
 	margin: 1em auto;
@@ -89,7 +71,6 @@ p {
 
 a {
 	color: #222222;
-/*	font-weight: bold;*/
 	text-decoration:underline;
 }
 a:hover {
