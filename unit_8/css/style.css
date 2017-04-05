@@ -1,0 +1,188 @@
+
+@import url('https://fonts.googleapis.com/css?family=Kanit:700');
+@import url('https://fonts.googleapis.com/css?family=Kanit:300');
+
+* {
+	padding: .5%;
+	margin: .5%;
+	box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+	font-family: 'Kanit:300', sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #222222;
+}
+
+header {
+	padding: 1.2em 1em;
+}
+
+main {
+	padding: 1.5em;
+	clear: both;
+}
+
+footer {
+	clear: both;
+	background-color: #ffffff;
+	font-size: 1em;
+	padding: 1.5em;
+}
+
+h1{
+	font-family: 'Kanit:700', sans-serif;
+	font-size: 1,7em;
+	text-align: center;
+	line-height: 1em;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 1.2em;
+	text-align: center;
+	line-height: 1em;
+}
+
+hr {
+	border: none;
+	height: .2em;
+	background:#222222;
+	width: 10em;
+	margin: 1em auto;
+}
+
+
+h3 {
+	font-weight: bold;
+}
+
+h3, p, a {
+	font-size: 1em;
+	line-height: 1.2em;
+}
+
+p {
+	font-size: .9em;
+	line-height: 1.3;
+}
+
+a {
+	color: #222222;
+	text-decoration:underline;
+}
+a:hover {
+	background-color: #AFE8D7;
+	text-decoration:underline;
+}
+
+nav{
+	background-color: white;
+	text-align: center;
+	position: relative;
+	padding: 3em 3em;
+}
+
+nav a {
+	color: black;
+	font-weight: bold;
+	text-decoration:none;
+	text-transform: uppercase;
+	margin: .7em;
+}
+
+nav a:hover {
+	background-color: #AFE8D7;
+	text-decoration:underline;
+}
+
+#wrapper {
+	width: 100%;
+	max-width: 1080px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.navlinks{
+	letter-spacing: 2px;
+	padding:4%;
+	margin: auto;
+    border:none;
+}
+
+.item {
+	padding:0.7em 0.7em;
+	box-shadow: 1px 1px 3px rgba(0,0,0,.25);
+	margin-bottom:1em;
+	background: #fff;
+}
+
+.item img {
+	width:100%;
+}
+
+.masonry {
+    column-count: 3;
+    column-gap: 1em;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#two_column{
+	padding: 10px;
+}
+
+#left{
+	padding: 1.5%;
+	float: left;
+	width: 62%;
+}
+
+ #rigth{
+	padding: 1.5%;
+	float: right;
+	width: 32%;
+}
+
+@media screen and (max-width:880px){
+	.masonry {
+	    column-count: 2;
+	    column-gap: 1em;
+		}
+}
+
+@media screen and (max-width:690px){
+	#left{
+		padding: 1.5%;
+		float: none;
+		width: 100%;
+		}
+
+	#rigth{
+		padding: 1.5%;
+		float: none;
+		width: 100%;
+		}
+	h1{
+	font-size: 1.6em;
+	}
+
+	h2 {
+	font-size: 1.1em;
+	}
+
+@media screen and (max-width:550px){
+	.masonry {
+	    column-count: 1;
+		}
+}
+
